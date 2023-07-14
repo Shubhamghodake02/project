@@ -1,0 +1,58 @@
+#Project Session 1
+
+Health and insurance Data Analysis 
+
+Domain : 
+Telecom
+Pharma
+Banking
+insurance 
+
+
+#Transactional Table 
+patient 
+staff  
+
+
+
+#Reference Table
+
+policy_plan
+country
+
+
+jdbc:postgresql://database-1.cpivq4f0og65.ap-south-1.rds.amazonaws.com:5432/PROD
+
+
+select 'ADDRESS',count(*) from ADDRESS
+union all select 'BILLING',count(*) from BILLING
+union all select 'CITY',count(*) from CITY
+union all select 'CLAIM',count(*) from CLAIM
+union all select 'COUNTRY',count(*) from COUNTRY
+union all select 'DEPARTMENT',count(*) from DEPARTMENT
+union all select 'DISEASE',count(*) from DISEASE
+union all select 'DOCTOR',count(*) from DOCTOR
+union all select 'E_ADDRESS',count(*) from E_ADDRESS
+union all select 'FAMILY_DETAIL',count(*) from FAMILY_DETAIL
+union all select 'HOSPITAL',count(*) from HOSPITAL
+union all select 'PAIIENT',count(*) from PAIIENT
+union all select 'POLICY',count(*) from POLICY
+union all select 'STAFF',count(*) from STAFF
+union all select 'TEST',count(*) from TEST;
+
+
+ADDRESS	25
+BILLING	15
+CITY	17
+CLAIM	11
+COUNTRY	8
+DEPARTMENT	10
+DISEASE	11
+DOCTOR	10
+E_ADDRESS	150
+FAMILY_DETAIL	125
+HOSPITAL	10
+PAIIENT	100
+POLICY	6
+STAFF	25
+TEST	11
